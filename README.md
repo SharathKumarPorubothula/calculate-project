@@ -1,9 +1,12 @@
-Calculator Project
+Title: Responsive Calculator Project
 
-This is a versatile calculator application designed to perform a wide range of calculations, from basic arithmetic to more complex operations. It's built using HTML, CSS, JavaScript
+Description:
+
+This project is a web-based calculator that adapts to different screen sizes, providing a seamless user experience across desktops, tablets, and mobile devices. It leverages HTML, CSS, and JavaScript to implement core mathematical operations in a user-friendly interface.
 
 Features:
-- Performs basic arithmetic operations (addition, subtraction, multiplication, division)
-- Offers advanced calculations (exponents, logarithms, trigonometry)
-- Includes unit conversion capabilities (e.g., length, temperature, currency)
-- User-friendly interface with clear input and output displays (optional: mention layout or design aspects)
+
+- Responsive Design: The layout automatically adjusts to display correctly on various screen sizes, ensuring optimal usability.
+- Basic Calculations: Performs fundamental mathematical operations like addition, subtraction, multiplication, and division.
+- Clear Functionality: Users can input numbers and operators, execute calculations, and view results intuitively.
+- Clean Interface: The design prioritizes clarity and accessibility, making it easy for users to interact with the calculator.
