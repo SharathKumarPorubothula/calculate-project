@@ -1,0 +1,109 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    width: 260px;
+    height: 460px;
+    border-radius: 10px;
+    background: rgb(93, 109, 126);
+    padding: 10px;
+}
+div input{
+    width: 52px;
+    height: 50px;
+    border: none;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
+    margin: 5px;
+    border-radius: 5px;
+   font-size: 15px;
+   font-weight: bold;
+}
+.display_input{
+    width: 247px;
+    height: 120px;
+    box-shadow: none;
+    border: none;
+    display: flex;
+    font-weight: 400;
+}
+ input[type="text"] {
+    font-size: 50px;
+    text-align: end;
+    padding: 0;
+  }
+  .button_color{
+    color: rgb(235, 86, 17);
+  }
+  @media screen and (max-width:1653px) {
+    .main{
+        width: 1000px;
+    height: 460px;
+    }
+    div input{
+        width: 233px;
+        height: 50px;
+        margin: 5px;
+    border-radius: 15px;
+   font-size: 35px;
+    }
+    .display_input{
+        width: 980px;
+        height: 120px;
+    }
+  }
+  @media screen and (max-width:720px) {
+    .main{
+        width: 700px;
+    height: 460px;
+    }
+    div input{
+        width: 158px;
+        height: 50px;
+        margin: 5px;
+    border-radius: 15px;
+   font-size: 35px;
+    }
+    .display_input{
+        width: 680px;
+        height: 120px;
+    }
+  }
+  @media screen and (max-width:320px){
+    .main{
+        width: 260px;
+    height: 460px;
+    }
+    div input{
+        width: 52px;
+        height: 50px;
+        margin: 5px;
+    border-radius: 15px;
+   font-size: 35px;
+    }
+    .display_input{
+        width: 247px;
+        height: 120px;
+    }
+  }
+  @media screen and (max-width:320px){
+    .main{
+        width: 260px;
+    height: 460px;
+    }
+    div input{
+        width: 52px;
+        height: 50px;
+        margin: 3px;
+    border-radius: 15px;
+   font-size: 35px;
+    }
+    .display_input{
+        width: 247px;
+        height: 120px;
+    }
+  }
+  
+  
